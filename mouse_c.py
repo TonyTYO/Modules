@@ -182,7 +182,6 @@ class Mouse:
                 self.position = path[i]
                 i += speed
         elif speed < 0:
-            print("M", abs(speed) * 0.005)
             for pt in path:
                 prev_position = self.position
                 self.position = pt
