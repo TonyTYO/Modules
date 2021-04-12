@@ -223,6 +223,7 @@ class Mouse:
             To retrieve position information first line in function should be: pos, rel, o_pos = args[-3:] """
         dragThread = threading.Thread(target=self._drag_pr, args=(x, y, speed, func))
         dragThread.start()
+        dragThread.join()
 
     def get_screenpos(self, x, y):
         """ Translate active window coordinates to screen coordinates
