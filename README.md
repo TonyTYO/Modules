@@ -4,9 +4,9 @@ vector.py   : module to implement Vector class of any dimension
 
 rdict.py    : Reversible dictionary
 
-mouse_c.py  : Implements mouse control from code
+mouse_c.py  : Implements mouse control in win10 from code
 
-pygaddag.py : GADDAG implementation with various lookups and searches for games
+pygaddag.py : GADDAG implementation with various lookups and searches
 
 statemachine.py : Implementation of a general state machine
 
