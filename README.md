@@ -19,3 +19,5 @@ userinput.py  : Get user input in pygame
 pygbuttons.py : Implement buttons in pygame
 
 dialogue.py   : Dialogue windows for pygame
+
+menu.py       : Implement menus in pygame
